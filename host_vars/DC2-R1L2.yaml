@@ -253,7 +253,7 @@ sonic_system:
   hostname: DC2-R1L1
   interface_naming: standard
 sonic_vlans:
-  - vlan_id: 4000
+  - vlan_id: 3000
   - vlan_id: 100
   - vlan_id: 200
   - vlan_id: 201
@@ -283,7 +283,7 @@ sonic_vrf_interfaces:
         - name: Vlan303
         - name: Vlan304
         - name: Vlan305
-        - name: Vlan4000
+        - name: Vlan3000
     name: VrfTenant1
   - members:
       interfaces:
