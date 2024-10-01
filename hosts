@@ -1,0 +1,21 @@
+DC2-S1 ansible_host=192.168.1.222
+DC2-S2 ansible_host=192.168.1.223
+DC2-R1L1 ansible_host=192.168.1.218
+DC2-R1L2 ansible_host=192.168.1.219
+DC2-R2L1 ansible_host=192.168.1.220
+DC2-R2L2 ansible_host=192.168.1.221
+
+
+[spine]
+DC2-S1
+DC2-S2
+
+[leaf]
+DC2-R1L1
+DC2-R1L2
+DC2-R2L1
+DC2-R2L2
+
+[VirtualLabDC2:children]
+spine
+leaf
