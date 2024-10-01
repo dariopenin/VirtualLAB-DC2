@@ -1,4 +1,4 @@
-- hosts: VirtualLabDC1
+- hosts: VirtualLabDC2
   connection: httpapi
   gather_facts: false
   collections:
