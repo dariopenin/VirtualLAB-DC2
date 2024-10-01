@@ -44,13 +44,13 @@ host_data:
     mgmt_gateway_ip: 192.168.1.1
     mgmt_ip: 192.168.1.215/24
     vtep_name: vtep_DC2R2
-  DC1-S1:
+  DC2-S1:
     bgp_asn: 65200
     bgp_router_id: 10.2.1.1
     loopback0_ip: 10.2.1.1/32
     mgmt_gateway_ip: 192.168.1.1
     mgmt_ip: 192.168.1.216/24
-  DC1-S2:
+  DC2-S2:
     bgp_asn: 65200
     bgp_router_id: 10.2.1.2
     loopback0_ip: 10.2.1.2/32
