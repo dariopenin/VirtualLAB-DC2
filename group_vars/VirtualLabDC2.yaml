@@ -14,7 +14,7 @@ host_data:
     loopback3_ip: 1.12.1.1/32
     mclag_peer_ip: 10.2.2.2
     mgmt_gateway_ip: 192.168.1.1
-    mgmt_ip: 192.168.1.210/24
+    mgmt_ip: 192.168.1.218/24
     vtep_name: vtep_DC2R1
   DC2-R1L2:
     bgp_asn: 65201
@@ -24,7 +24,7 @@ host_data:
     loopback3_ip: 1.12.1.2/32
     mclag_peer_ip: 10.2.2.1
     mgmt_gateway_ip: 192.168.1.1
-    mgmt_ip: 192.168.1.211/24
+    mgmt_ip: 192.168.1.219/24
     vtep_name: vtep_DC2R1
   DC2-R2L1:
     bgp_asn: 65202
@@ -33,7 +33,7 @@ host_data:
     loopback1_ip: 1.2.1.2/32
     mclag_peer_ip: 10.2.2.4
     mgmt_gateway_ip: 192.168.1.1
-    mgmt_ip: 192.168.1.214/24
+    mgmt_ip: 192.168.1.220/24
     vtep_name: vtep_DC2R2
   DC2-R2L2:
     bgp_asn: 65202
@@ -42,20 +42,20 @@ host_data:
     loopback1_ip: 1.2.1.2/32
     mclag_peer_ip: 10.2.2.3
     mgmt_gateway_ip: 192.168.1.1
-    mgmt_ip: 192.168.1.215/24
+    mgmt_ip: 192.168.1.221/24
     vtep_name: vtep_DC2R2
   DC2-S1:
     bgp_asn: 65200
     bgp_router_id: 10.2.1.1
     loopback0_ip: 10.2.1.1/32
     mgmt_gateway_ip: 192.168.1.1
-    mgmt_ip: 192.168.1.216/24
+    mgmt_ip: 192.168.1.222/24
   DC2-S2:
     bgp_asn: 65200
     bgp_router_id: 10.2.1.2
     loopback0_ip: 10.2.1.2/32
     mgmt_gateway_ip: 192.168.1.1
-    mgmt_ip: 192.168.1.217/24
+    mgmt_ip: 192.168.1.223/24
 loopback0_ip: '{{ host_data[inventory_hostname].loopback0_ip }}'
 loopback_inf0: Loopback0
 loopback_inf1: Loopback1
