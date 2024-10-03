@@ -178,41 +178,41 @@ sonic_vxlans:
     source_ip: '{{ loopback1_ip.split(''/'')[0] }}'
     vlan_map:
       - vlan: 100
-        vni: 10100
+        vni: 20100
       - vlan: 200
-        vni: 10200
+        vni: 20200
       - vlan: 201
-        vni: 10201
+        vni: 20201
       - vlan: 202
-        vni: 10202
+        vni: 20202
       - vlan: 301
-        vni: 10301
+        vni: 20301
       - vlan: 302
-        vni: 10302
+        vni: 20302
       - vlan: 303
-        vni: 10303
+        vni: 20303
       - vlan: 304
-        vni: 10304
+        vni: 20304
       - vlan: 305
-        vni: 10305
+        vni: 20305
       - vlan: 306
-        vni: 10306
+        vni: 20306
       - vlan: 307
-        vni: 10307
+        vni: 20307
       - vlan: 308
-        vni: 10308
+        vni: 20308
       - vlan: 309
-        vni: 10309
+        vni: 20309
       - vlan: 310
-        vni: 10310
+        vni: 20310
       - vlan: 61
-        vni: 1061
+        vni: 2061
       - vlan: 62
-        vni: 1062
+        vni: 2062
     vrf_map:
-      - vni: 1061
+      - vni: 2061
         vrf: VrfTenant1
-      - vni: 1062
+      - vni: 2062
         vrf: VrfTenant2
 vlans:
   - 100
