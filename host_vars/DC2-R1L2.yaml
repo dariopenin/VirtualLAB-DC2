@@ -170,7 +170,7 @@ sonic_bgp_neighbors:
         peer_group: spine-leaf
       - neighbor: Eth1/7
         peer_group: spine-leaf
-      - neighbor: Eth1/5
+      - neighbor: 10.10.2.6
         peer_group: external
     peer_group:
       - '{{sonic_bgp_spineleaf_peergroup}}'
